@@ -1,0 +1,52 @@
+;                 KEYWORD DESCRIPTIONS
+;                 --------------------
+;
+;     verbose    - Exactly what it says; run Pikia in verbose mode :
+;                  Default [Off]
+;
+;     mutestan   - Standard mutation; remove "creep mutation" may
+;                  speed things up.
+;                  Default [Off]
+;
+;     plots      - Show inline plots - really slows things down, but
+;                  can be nice to see how solutions develop!
+;                  Default [Off] ****new*** now implemented
+;
+;     eliteoff   - Turns off elitism ("keep the fittest at all costs")
+;                  Default [Off]
+;
+;     crossprob  - Change the crossover probability
+;                  Default [0.85]
+;
+;   replacement  - Performs steady-state generation replacement, not always a
+;                  good idea - can slow things down
+;                  Default [Off - FULL Generational Replacement]
+;                             1 - Steady-State Replace-Random
+;                             2 - Steady-State Replace-Worst
+;
+;     muteprob   - Change the mutation probability [small value please]
+;                  Default [0.005]
+;
+;     population - Number of members in population
+;                  Default [80]
+;
+;     fitdiff    - Fitness Differential - changes how "parents" are selected
+;                  Default [1.0]
+;
+;  variablemute  - Variable Mutation Rate - Fitness Dependent
+;                  alteration of mutation rate within prescribed
+;                  bounds -- Off by default
+;
+; creepmutation  - Creep mutation implemented - allows the user to
+;                  circumvent Hamming walls (numerical "stickyness")
+;                  -- Off by Default
+;
+;   twopoint     - Enable two-point crossover (with mcp probability)
+;                  -- Off by Default - Probability 0.
+;
+;  decimalplaces - Specifies the number of significant decimal places
+;                  in each parameter - Default [6]
+;
+;   seeding      - Provide an alternate seed for the RNG - [LONG Scalar]
+;
+;
